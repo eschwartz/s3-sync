@@ -1,0 +1,24 @@
+{
+  "name": "s3-sync",
+  "version": "1.0.0",
+  "description": "Node.js wrapper around AWS CLI S3 sync utility",
+  "main": "lib/s3-sync.js",
+  "scripts": {
+    "test": "mocha --recursive ./test/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eschwartz/s3-sync.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "sync"
+  ],
+  "author": "Edan Schwartz <edanschwartz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eschwartz/s3-sync/issues"
+  },
+  "homepage": "https://github.com/eschwartz/s3-sync#readme"
+}
