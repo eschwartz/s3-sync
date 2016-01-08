@@ -1,7 +1,7 @@
 {
   "name": "s3-sync",
   "version": "1.0.0",
-  "description": "Node.js wrapper around AWS CLI S3 sync utility",
+  "description": "Node.js wrapper around the AWS CLI S3 sync utility",
   "main": "lib/s3-sync.js",
   "scripts": {
     "test": "mocha --recursive ./test/spec"
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/eschwartz/s3-sync/issues"
   },
-  "homepage": "https://github.com/eschwartz/s3-sync#readme"
+  "homepage": "https://github.com/eschwartz/s3-sync#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
 }
