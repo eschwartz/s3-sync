@@ -1,5 +1,5 @@
 {
-  "name": "s3-sync",
+  "name": "aeris-s3-sync",
   "version": "1.0.0",
   "description": "Node.js wrapper around the AWS CLI S3 sync utility",
   "main": "lib/s3-sync.js",
